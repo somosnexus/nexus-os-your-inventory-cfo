@@ -9,11 +9,11 @@ const SolutionSection = () => {
       iconBg: "bg-danger/10",
       title: "Alertas ANTES de Acabar",
       mock: {
-        type: "warning",
-        badge: "💰",
-        title: "R$ 11.700 parados",
-        subtitle: "8 unidades há 95 dias",
-        action: "Ver Detalhes",
+        type: "critical",
+        badge: "🔴 CRÍTICO",
+        title: "Mouse Gamer",
+        subtitle: "Acaba em 2 dias",
+        action: "Repor Agora",
       },
       description: "Te avisa com antecedência considerando o tempo do seu fornecedor. Você nunca mais fica sem estoque.",
     },
@@ -23,11 +23,11 @@ const SolutionSection = () => {
       iconBg: "bg-warning/10",
       title: "Capital Parado Identificado",
       mock: {
-        type: "critical",
-        badge: "🔴 CRÍTICO",
-        title: "Mouse Gamer",
-        subtitle: "Acaba em 2 dias",
-        action: "Repor Agora",
+        type: "warning",
+        badge: "💰",
+        title: "R$ 11.700 parados",
+        subtitle: "8 unidades há 95 dias",
+        action: "Ver Detalhes",
       },
       description: "Mostra exatamente quanto dinheiro está travado e sugere ações para recuperar.",
     },
@@ -88,7 +88,7 @@ const SolutionSection = () => {
                     solution.mock.type === 'critical' ? 'text-danger' :
                     solution.mock.type === 'warning' ? 'text-warning' : 'text-success'
                   }`}>
-                    {solution.mock.type === 'critical' ? 'Crítico' :
+                    {solution.mock.type === 'critical' ? 'Estoque Crítico' :
                      solution.mock.type === 'warning' ? 'Capital' : 'Oportunidade'}
                   </span>
                 </div>

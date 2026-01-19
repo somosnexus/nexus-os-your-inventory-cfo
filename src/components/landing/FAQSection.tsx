@@ -15,7 +15,7 @@ const FAQSection = () => {
     {
       question: "Funciona com Mercado Livre e Shopee?",
       answer:
-        "Sim! Se você já integrou esses marketplaces no seu Bling, funciona automaticamente. O Nexus importa todos os dados que já estão no Bling. Em breve teremos integração direta também.",
+        "Sim! Como o Nexus OS se integra diretamente ao Bling, ele analisa automaticamente todos os produtos e vendas que já estão no seu ERP - independente do canal de venda. Se você vende no Mercado Livre, Shopee ou qualquer outro marketplace integrado ao Bling, o Nexus vai analisar esses dados normalmente.",
     },
     {
       question: "Quanto tempo leva para configurar?",

@@ -1,5 +1,7 @@
-import { Link2, Cpu, Target, ArrowRight, CheckCircle } from "lucide-react";
+import { Link2, Cpu, Target, ArrowRight, CheckCircle, Bell } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import nexusLogo from "@/assets/nexus-logo.png";
+import blingLogo from "@/assets/bling-logo.png";
 
 const HowItWorksSection = () => {
   const steps = [
@@ -12,12 +14,12 @@ const HowItWorksSection = () => {
       description: "Autorização segura com 1 clique. OAuth 2.0 - o mesmo padrão usado por bancos.",
       visual: (
         <div className="flex items-center justify-center gap-4 mt-4">
-          <div className="w-12 h-12 rounded-xl bg-muted flex items-center justify-center">
-            <span className="font-bold text-foreground text-sm">Bling</span>
+          <div className="w-14 h-14 rounded-xl bg-[#22C55E] flex items-center justify-center p-2 shadow-md">
+            <img src={blingLogo} alt="Bling" className="w-full h-full object-contain" />
           </div>
           <ArrowRight className="w-6 h-6 text-primary" />
-          <div className="w-12 h-12 rounded-xl bg-gradient-gold flex items-center justify-center">
-            <span className="font-bold text-white text-xs">NX</span>
+          <div className="w-14 h-14 rounded-xl bg-gradient-gold flex items-center justify-center p-1 shadow-gold">
+            <img src={nexusLogo} alt="Nexus OS" className="w-full h-full object-contain" />
           </div>
         </div>
       ),
@@ -125,7 +127,5 @@ const HowItWorksSection = () => {
     </section>
   );
 };
-
-import { Bell } from "lucide-react";
 
 export default HowItWorksSection;

@@ -1,16 +1,18 @@
 import { CheckCircle, Shield, BookOpen, Zap } from "lucide-react";
+import blingLogo from "@/assets/bling-logo.png";
 
 const CredibilitySection = () => {
   return (
     <section className="py-section-mobile lg:py-section section-gold">
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
-          {/* Logo placeholder */}
+          {/* Logo Bling */}
           <div className="inline-flex items-center gap-3 mb-6">
-            <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center border-2 border-primary/30">
-              <span className="text-2xl font-bold text-primary">B</span>
-            </div>
-            <span className="text-3xl font-bold text-foreground">Bling</span>
+            <img 
+              src={blingLogo} 
+              alt="Bling ERP" 
+              className="h-16 w-auto object-contain"
+            />
           </div>
 
           {/* Badge */}

@@ -13,11 +13,6 @@ const FAQSection = () => {
         "Sim! Usamos OAuth 2.0, o mesmo padrão de segurança usado por bancos e fintechs. Temos permissão apenas de LEITURA - nunca alteramos, deletamos ou modificamos nada no seu Bling. Tudo é 100% seguro e aprovado oficialmente pelo Bling.",
     },
     {
-      question: "Funciona com Mercado Livre e Shopee?",
-      answer:
-        "Sim! Como o Nexus OS se integra diretamente ao Bling, ele analisa automaticamente todos os produtos e vendas que já estão no seu ERP - independente do canal de venda. Se você vende no Mercado Livre, Shopee ou qualquer outro marketplace integrado ao Bling, o Nexus vai analisar esses dados normalmente.",
-    },
-    {
       question: "Quanto tempo leva para configurar?",
       answer:
         "2 minutos. Literalmente. Você clica em 'Conectar Bling', autoriza com 1 clique, e pronto. O sistema importa tudo sozinho. Sem planilhas, sem configurações complexas.",

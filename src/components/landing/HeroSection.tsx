@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Play, AlertCircle, TrendingUp, DollarSign } from "lucide-react";
+import { CheckCircle, AlertCircle, TrendingUp, DollarSign } from "lucide-react";
 import nexusLogo from "@/assets/nexus-logo.png";
 
 const HeroSection = () => {
@@ -33,10 +33,6 @@ const HeroSection = () => {
               <Button variant="hero" size="xl">
                 Começar Grátis Agora
               </Button>
-              <Button variant="goldOutline" size="lg" className="gap-2">
-                <Play className="w-5 h-5" />
-                Ver Demonstração
-              </Button>
             </div>
 
             {/* Trust Indicators */}
@@ -69,7 +65,7 @@ const HeroSection = () => {
                 <div className="w-3 h-3 rounded-full bg-danger" />
                 <div className="w-3 h-3 rounded-full bg-warning" />
                 <div className="w-3 h-3 rounded-full bg-success" />
-                <span className="ml-2 text-sm text-muted-foreground">nexusos.com.br/dashboard</span>
+                <span className="ml-2 text-sm text-muted-foreground font-medium">Dashboard Nexus OS</span>
               </div>
 
               {/* Alert Cards */}
